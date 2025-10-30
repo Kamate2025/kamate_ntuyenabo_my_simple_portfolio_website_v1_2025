@@ -53,8 +53,8 @@ p {
 #skills {
   display: flex;
   padding-left: 20px;
+  flex-wrap: wrap;
   gap: 40px;
-
 }
 .skills {
   background-color: aliceblue;
@@ -64,9 +64,42 @@ p {
 .box {
   background-color: #ffffff;
   padding: 10px;
+  transition: transform 1s ease;
 }
 .box:hover {
-    transform: translateX(5px)
+    transform: translateX(2px);
+}
+
+.my-work {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.box h3 {
+  color: blue;
+}
+.my-work-box {
+margin-bottom: 20px;
+}
+
+.my-work-box a {
+  text-decoration: none;
+  color: blue;
+}
+.my-work-box a:hover {
+ text-decoration: underline;
+}
+
+#contact-me {
+  padding: 20px;
+  background-color: aliceblue;
+  margin: 20px;
+}
+#email {
+  padding: 20px;
+  margin: 20px;
+  color: blue;
 }
 footer {
   background-color: rgb(111, 111, 231);
